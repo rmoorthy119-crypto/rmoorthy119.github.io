@@ -4,9 +4,10 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #fff;
-  color: #333;
+  background-color: #121212; /* dark gray */
+  color: #fff;               /* white text */
 }
+
 
 /* Header */
 header {
