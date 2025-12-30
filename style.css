@@ -1,4 +1,91 @@
+/* General styles */
 body {
-  font-family: Arial, sans-serif;
-  margin: 40px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
 }
+
+/* Header */
+header {
+  text-align: center;
+  margin-top: 50px;
+}
+header h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+header p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Sections */
+section {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Projects */
+.project {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.project a {
+  color: #007BFF;
+  text-decoration: none;
+}
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* Resume button */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Contact */
+#contact {
+  text-align: center;
+}
+#contact a {
+  color: #007BFF;
+  text-decoration: none;
+}
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 2.5em;
+  }
+  section {
+    padding: 0 10px;
+  }
+}
+
