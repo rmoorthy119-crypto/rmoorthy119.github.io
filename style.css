@@ -153,3 +153,38 @@ a:hover {
     font-size: 1.6rem;
   }
 }
+/* ===== Education ===== */
+#education {
+  display: grid;
+  gap: 24px;
+}
+
+.education-card {
+  background: #0f172a;
+  padding: 26px;
+  border-radius: 14px;
+  border: 1px solid #1e293b;
+}
+
+.education-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: #38bdf8;
+}
+
+.education-card p {
+  font-size: 0.95rem;
+  color: #d1d5db;
+}
+
+.ncsc {
+  margin-top: 8px;
+  font-weight: 600;
+  color: #22d3ee;
+}
+
+.year {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
